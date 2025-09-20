@@ -187,7 +187,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/",
+					url: "https://space.bilibili.com/3461562341787910",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
@@ -252,7 +252,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/",
+			url: "https://space.bilibili.com/3461562341787910",
 		},
 		{
 			name: "Gitee",
@@ -465,18 +465,18 @@ export const pioConfig: import("./types/config").PioConfig = {
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
-	hiddenOnMobile: true, // 默认在移动设备上隐藏
+	hiddenOnMobile: false, // 默认在移动设备上隐藏
 	dialog: {
 		welcome: "欢迎来到我的技术博客", // 欢迎词
 		touch: [
 			"你在干什么？",
-			"不要碰我!",
-			"生气气!",
-			"唔...",
+			"再摸我就报警了！",
+			"HENTAI",
+			"不可以这样欺负我啦！",
 		], // 触摸提示
-		home: "点击这里以返回首页!", // 首页提示
-		skin: ["想要看我的新衣服吗?", "新衣服看起来非常不错~"], // 换装提示
-		close: "期待下次与你见面~", // 关闭提示
+		home: "点击这里回到首页！", // 首页提示
+		skin: ["想看看我的新衣服吗？", "新衣服真漂亮~"], // 换装提示
+		close: "QWQ 下次再见吧~", // 关闭提示
 		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
 	},
 };
