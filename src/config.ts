@@ -467,16 +467,16 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to My Website!", // 欢迎词
+		welcome: "欢迎来到我的技术博客", // 欢迎词
 		touch: [
-			"你在干什么？?",
+			"你在干什么？",
 			"不要碰我!",
 			"生气气!",
-			"Don't bully me like that!",
+			"唔...",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
+		home: "点击这里以返回首页!", // 首页提示
+		skin: ["想要看我的新衣服吗?", "新衣服看起来非常不错~"], // 换装提示
+		close: "期待下次与你见面~", // 关闭提示
 		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
 	},
 };
